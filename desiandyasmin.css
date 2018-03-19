@@ -1,0 +1,143 @@
+/* Body Design for all pages */
+
+@font-face{
+  font-family: appleFont;
+  src: url(AppleScript.ttf) format('truetype');
+}
+
+body{
+  text-align: center;
+  background-image: url('d_y1.jpg');
+  background-size: cover;
+  color: pink;
+  height: 580px;
+  font-size: 25px;
+  font-family: appleFont;
+}
+
+article {
+  max-width: 580px;
+  padding: 20px;
+  margin: 0 auto;
+}
+/* Design for Headers on all Pages */
+h1 {
+  font-size: 85px;
+  font-size-adjust: auto;
+}
+/* Design for Navigation Bar on all Pages */
+ul.navbarHome {
+  position: sticky;
+  font-size: 30px;
+  padding: 10px;
+}
+li.navbarHome {
+  position: sticky;
+  display: inline;
+  padding: 0px 50px 0px 50px;
+}
+a.navbarHome {
+  text-decoration: none;
+  position: sticky;
+  font-size-adjust: auto;
+  color: pink;
+}
+
+li a.navbarHome {
+  position: sticky;
+  padding: 10px
+}
+
+li a:hover {
+  background-color:#111
+}
+
+/* Nav Bar for other pages*/
+.topnav {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.topnav a {
+  float: left
+  display: block;
+  text-align: center;
+  padding: 14px 16px
+  text-decoration: none;
+  color: pink;
+}
+
+.topnav a:hover{
+  background-color:pink;
+  color: black;
+}
+/* Table for About Us Page */
+ div.container1 {
+   width: 99%;
+   height: 37%;
+   border: 2px solid gray;
+   border-radius: 5px;
+   background-color: pink;
+   color: black;
+   padding-left: 10px;
+   padding-top: 10px;
+ }
+
+ article.container1 {
+   border-left: 3px;
+ }
+
+ nav.container1{
+   float: left;
+   margin: 0;
+ }
+
+
+ div.container2 {
+   width: 99%;
+   height:  37%;
+   border: 2px solid gray;
+   border-radius: 5px;
+   background-color:pink;
+   color: black;
+   padding-right: 10px;
+   padding-top: 10px;
+ }
+
+ article.container2 {
+   border-right: 3px;
+ }
+
+ nav.container2{
+   float: right;
+   margin: 0;
+ }
+
+ img {
+   width: 40%
+   max-widh: 160px;
+   margin: 0;
+
+ }
+
+ img.profiles {
+   border-style: solid;
+   border-radius: 30px;
+   border-color: gray;
+ }
+
+ video{
+   border-style: ridge;
+   border-radius: 5px;
+   border-color:pink;
+ }
+
+ li.socials{
+   display = inline;
+ }
+
+ img.WhatWeLike{
+   width: 40%
+   border-color: pink;
+   border-radius: 110px;
+   border-style: solid;
+ }
